@@ -36,6 +36,10 @@ uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
 if uploaded_file is not None:
     combined_df = pd.read_parquet(uploaded_file)
     combined_df = preprocess_data(combined_df)
+    pie_chart_protocol()
+    show_flow_bytes()
+    match()
+    violin_plot()
 
 # Sidebar Content
 st.sidebar.title("Select Feature to Display")
@@ -160,10 +164,6 @@ def violin_plot():
     st.plotly_chart(fig, use_container_width=True)
 
 # เรียกใช้ฟังก์ชันต่าง ๆ
-pie_chart_protocol()
-show_flow_bytes()
-match()
-violin_plot()
 
 # ตั้งค่าธีม
 st.markdown("""
