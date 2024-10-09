@@ -30,7 +30,7 @@ if uploaded_file is not None:
     st.write("Uploaded CSV Data:", df)
     df = df.drop(columns='Unnamed: 0')
     # โหลดโมเดล Random Forest
-    model = joblib.load(r'ai จารแก้ว/monitor_ai_cyber/pages/random_forest_model.pkl')
+    model = joblib.load('AI_security_app/pages/random_forest_model.pkl')
     predictions = predict_attack(df)
     df['Portscan Prediction'] = predictions
     # ไฮไลท์คอลัมน์ที่เป็น Portscan
