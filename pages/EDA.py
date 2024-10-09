@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import gdown
 import plotly.graph_objects as go
-import pyarrow.parquet as pq
 
 st.set_page_config(
     page_title="Log Monitoring",
@@ -21,7 +20,7 @@ def load_data():
     # gdown.download(file_url, 'data.parquet', quiet=False)
 
     # โหลดข้อมูลจากไฟล์ CSV
-    combined_df  = pq.read_table('/mount/src/ai_security_app/pages/Out_test.parquet')
+    combined_df  = pd.read_parquet('Out_test.parquet')
     #combined_df = pd.read_parquet("parquet_dir_access/combined.parquet")
     return combined_df
 
