@@ -14,13 +14,13 @@ st.set_page_config(
 @st.cache(allow_output_mutation=True)
 def load_data():
     # URL ของไฟล์ CSV บน Google Drive
-    file_url = 'https://drive.google.com/uc?id=1iFAo1LPUijiDHR3dMWnhcDQRNJLSLpLj'
+    # file_url = 'https://drive.google.com/uc?id=1iFAo1LPUijiDHR3dMWnhcDQRNJLSLpLj'
 
-    # ดาวน์โหลดไฟล์ CSV จาก Google Drive
-    gdown.download(file_url, 'data.parquet', quiet=False)
+    # # ดาวน์โหลดไฟล์ CSV จาก Google Drive
+    # gdown.download(file_url, 'data.parquet', quiet=False)
 
     # โหลดข้อมูลจากไฟล์ CSV
-    combined_df = pd.read_parquet('data.parquet')
+    combined_df = pd.read_parquet('pages/Out_test.parquet')
     #combined_df = pd.read_parquet("parquet_dir_access/combined.parquet")
     return combined_df
 
