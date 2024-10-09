@@ -11,22 +11,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-@st.cache(allow_output_mutation=True)
-def load_data():
-    # URL ของไฟล์ CSV บน Google Drive
-    # file_url = 'https://drive.google.com/uc?id=1iFAo1LPUijiDHR3dMWnhcDQRNJLSLpLj'
-
-    # # ดาวน์โหลดไฟล์ CSV จาก Google Drive
-    # gdown.download(file_url, 'data.parquet', quiet=False)
-
-    # โหลดข้อมูลจากไฟล์ CSV
-    uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
-    
-    if uploaded_file is not None:
-        # อ่านข้อมูลจากไฟล์ Parquet ที่อัปโหลด
-        combined_df = pd.read_parquet(uploaded_file)
-    #combined_df = pd.read_parquet("parquet_dir_access/combined.parquet")
-    return combined_df
 
 @st.cache
 def preprocess_data(combined_df):
@@ -47,9 +31,11 @@ def preprocess_data(combined_df):
         'Protocol': 'first'
     }).reset_index()
     return combined_df
-
-combined_df = load_data()
-combined_df = preprocess_data(combined_df)
+uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
+    
+if uploaded_file is not None:
+    combined_df = pd.read_parquet(uploaded_file)
+    combined_df = preprocess_data(combined_df)
 
 # Sidebar Content
 st.sidebar.title("Select Feature to Display")
