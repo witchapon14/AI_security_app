@@ -20,7 +20,11 @@ def load_data():
     # gdown.download(file_url, 'data.parquet', quiet=False)
 
     # โหลดข้อมูลจากไฟล์ CSV
-    combined_df  = pd.read_parquet(r'\mount\src\ai_security_app\pages\Out_test.parquet')
+    uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
+    
+    if uploaded_file is not None:
+        # อ่านข้อมูลจากไฟล์ Parquet ที่อัปโหลด
+        combined_df = pd.read_parquet(uploaded_file)
     #combined_df = pd.read_parquet("parquet_dir_access/combined.parquet")
     return combined_df
 
