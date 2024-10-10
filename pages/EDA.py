@@ -156,7 +156,7 @@ def violin_plot():
 # uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
     
 # if uploaded_file is not None:
-combined_df = pd.read_parquet("/mount/src/ai_security_app/pages/Out_test.parquet")
+combined_df = pd.read_csv("/mount/src/ai_security_app/pages/Out_test.parquet")
 combined_df = preprocess_data(combined_df)
 pie_chart_protocol()
 show_flow_bytes()
