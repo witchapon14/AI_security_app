@@ -17,6 +17,7 @@ def preprocess_data(combined_df):
     combined_df.replace([np.inf, -np.inf], np.nan, inplace=True)
     combined_df.dropna(inplace=True)
     combined_df.columns = combined_df.columns.str.strip().str.replace(' ', '_')
+    st.write(df.head(5))
     combined_df['Timestamp'] = pd.to_datetime(combined_df['Timestamp'])
     combined_df = combined_df.set_index('Timestamp')
     combined_df = combined_df.resample('5S').agg({
