@@ -154,15 +154,15 @@ def violin_plot():
     )
     
     st.plotly_chart(fig, use_container_width=True)
-# uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
+uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
     
-# if uploaded_file is not None:
-combined_df = pd.read_parquet("/mount/src/ai_security_app/pages/Out_test.parquet", engine='fastparquet')
-combined_df = preprocess_data(combined_df)
-pie_chart_protocol()
-show_flow_bytes()
-match()
-violin_plot()
+if uploaded_file is not None:
+    combined_df = pd.read_parquet(uploaded_file)
+    combined_df = preprocess_data(combined_df)
+    pie_chart_protocol()
+    show_flow_bytes()
+    match()
+    violin_plot()
 # เรียกใช้ฟังก์ชันต่าง ๆ
 
 # ตั้งค่าธีม
