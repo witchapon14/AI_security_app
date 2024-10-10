@@ -1,4 +1,4 @@
-pyarrow
+pyarrow==16.1.0
 numpy==1.23.5
 scikit-learn
 streamlit==1.34.0
