@@ -1,3 +1,4 @@
+fastparquet
 pyarrow==16.1.0
 numpy==1.23.5
 scikit-learn
