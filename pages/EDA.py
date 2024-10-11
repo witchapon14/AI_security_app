@@ -31,6 +31,7 @@ def preprocess_data(combined_df):
         'Label': 'first',
         'Protocol': 'first'
     }).reset_index()
+    st.write(combined_df.head(5))
     return combined_df
 
 # Sidebar Content
