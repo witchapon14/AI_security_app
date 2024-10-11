@@ -17,7 +17,6 @@ def preprocess_data(combined_df):
     combined_df.replace([np.inf, -np.inf], np.nan, inplace=True)
     combined_df.dropna(inplace=True)
     combined_df.columns = combined_df.columns.str.strip().str.replace(' ', '_')
-    st.write(combined_df.head(5))
     combined_df['Timestamp'] = pd.to_datetime(combined_df['Timestamp'])
     combined_df = combined_df.set_index('Timestamp')
     combined_df = combined_df.resample('5S').agg({
@@ -160,6 +159,7 @@ uploaded_file = st.file_uploader("Choose a Parquet file", type="parquet")
 if uploaded_file is not None:
     combined_df = pd.read_parquet(uploaded_file)
     combined_df = preprocess_data(combined_df)
+    st.write(combined_df.head(5))
     pie_chart_protocol()
     show_flow_bytes()
     match()
