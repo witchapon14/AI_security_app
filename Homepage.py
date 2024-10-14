@@ -9,7 +9,7 @@ st.sidebar.success("Select a demo above.")
 team_members = [
     {
         "name": "วิชญ์พล เกษตรตระการ", 
-        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "image": "https://scontent.fbkk7-2.fna.fbcdn.net/v/t39.30808-6/432734685_2484109161762017_8950146803975549470_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFpCo_IXvuKaLClPRVUoRYsaCnGC3SrnCJoKcYLdKucInQwLUQaPCYcKROFuZQ-bLJBb42tzr-fG9moxyqmpmy7&_nc_ohc=9fQrLDHyuI8Q7kNvgFClhoh&_nc_ht=scontent.fbkk7-2.fna&_nc_gid=AqbOYq9DW_8kM4vAQCAc_7w&oh=00_AYDw4AHyZ2y0g-_90FoJZiX0FvSbYRzMTzZ3C8j1fuV2ig&oe=6712ACB2", 
         "age": 20, 
         "student_id": "65010986"
     },
