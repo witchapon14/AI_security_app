@@ -8,25 +8,40 @@ st.sidebar.success("Select a demo above.")
 # สร้างข้อมูลเพื่อนในทีม (ชื่อ, รูปภาพ, อายุ, งาน, รหัสนักศึกษา)
 team_members = [
     {
-        "name": "Witchapon Kasettakarn", 
+        "name": "วิชญ์พล เกษตรตระการ", 
         "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
-        "age": 25, 
-        "job": "Network Security Engineer", 
-        "student_id": "S1234567"
+        "age": 20, 
+        "student_id": "65010986"
     },
     {
-        "name": "Wasan Boonsong", 
+        "name": "สุรพิชญ์ เทียบข่วง", 
         "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
-        "age": 30, 
-        "job": "Cybersecurity Analyst", 
-        "student_id": "S7654321"
+        "age": 20, 
+        "student_id": "65011146"
     },
     {
-        "name": "Charlie Brown", 
+        "name": "ภัทรชนน เมธาวุฒิยาภรณ์", 
         "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
-        "age": 28, 
-        "job": "Ethical Hacker", 
-        "student_id": "S9876543"
+        "age": 20, 
+        "student_id": "65010814"
+    },
+    {
+        "name": "รฐิตา สว่างเดือน", 
+        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "age": 20, 
+        "student_id": "65010905"
+    },
+    {
+        "name": "รมย์ชลี แก้วสา", 
+        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "age": 20, 
+        "student_id": "65010911"
+    },
+    {
+        "name": "วสันต์ บุญสงค์", 
+        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "age": 20, 
+        "student_id": "65010970"
     }
 ]
 
@@ -38,7 +53,6 @@ for member in team_members:
             <h3 style='color: #00FF00;'>{member['name']}</h3>
             <p style='color: white;'>
                 <b>Age:</b> {member['age']}<br>
-                <b>Job:</b> {member['job']}<br>
                 <b>Student ID:</b> {member['student_id']}
             </p>
         </div>
