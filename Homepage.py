@@ -15,7 +15,7 @@ team_members = [
     },
     {
         "name": "สุรพิชญ์ เทียบข่วง", 
-        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "image": "https://www.iote.kmitl.ac.th/wp-content/uploads/2024/09/33629-2-173x300.jpg", 
         "age": 20, 
         "student_id": "65011146"
     },
