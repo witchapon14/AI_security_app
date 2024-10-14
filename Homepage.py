@@ -21,7 +21,7 @@ team_members = [
     },
     {
         "name": "ภัทรชนน เมธาวุฒิยาภรณ์", 
-        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "image": "https://scontent.fbkk7-2.fna.fbcdn.net/v/t39.30808-6/438037450_1934093420393949_5737898906754750950_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEvYDcMQ6ydqqShmDSTLbgUFI3i6ypynBgUjeLrKnKcGIY_hnW1joZITXMfGNAvoKPiGrZkBr4xAKuGz3nsrJUV&_nc_ohc=l9IzzW_YJTEQ7kNvgFRGyCQ&_nc_ht=scontent.fbkk7-2.fna&_nc_gid=AfOLDEAdEkgJ8IKUSzvr4c2&oh=00_AYC4FZnWu2E0AlHi2y-hpapobVB7j3UxtUgHYtyZWaLJ1g&oe=6712D71C", 
         "age": 20, 
         "student_id": "65010814"
     },
