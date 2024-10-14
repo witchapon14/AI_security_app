@@ -27,13 +27,13 @@ team_members = [
     },
     {
         "name": "รฐิตา สว่างเดือน", 
-        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "image": "https://www.facebook.com/share/p/NaSRrGdvLXp6Uuhg/", 
         "age": 20, 
         "student_id": "65010905"
     },
     {
         "name": "รมย์ชลี แก้วสา", 
-        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "image": "https://drive.google.com/file/d/1BFr24T64d9EfzpWvu-WUqMWdm5C4EqrH/view?usp=drivesdk", 
         "age": 20, 
         "student_id": "65010911"
     },
