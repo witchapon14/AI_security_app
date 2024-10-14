@@ -55,7 +55,7 @@ team_members = [
 for member in team_members:
     st.markdown(f"""
         <div style="text-align: center;">
-            <img src="{member['image']}" alt="{member['name']}" style="width: 300px;">
+            <img src="{member['image']}" alt="{member['name']}" style="width: 300px; height: 500px;">
             <h3 style='color: #00FF00;'>{member['name']}</h3>
             <p style='color: white;'>
                 <b>Age:</b> {member['age']}<br>
