@@ -45,7 +45,7 @@ team_members = [
     },
     {
         "name": "อุษมา พีธรากร", 
-        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "image": "https://www.facebook.com/share/p/9Rifft6bCYiQnK7M/", 
         "age": 20, 
         "student_id": "65011236"
     }
