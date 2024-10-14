@@ -42,6 +42,12 @@ team_members = [
         "image": "https://www.iote.kmitl.ac.th/wp-content/uploads/2024/09/67630-240x300.jpg", 
         "age": 20, 
         "student_id": "65010970"
+    },
+    {
+        "name": "อุษมา พีธรากร", 
+        "image": "https://cdn.britannica.com/74/252374-050-AD45E98E/dog-breed-height-comparison.jpg", 
+        "age": 20, 
+        "student_id": "65011236"
     }
 ]
 
