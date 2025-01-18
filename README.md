@@ -29,4 +29,4 @@ The **NSL-KDD** dataset is used during the training phase to build and fine-tune
 
 ## User Interface Overview
 ### EDA feature
-![Application Homepage](AI_security_app/Picture/pages_EDA1.png)
+![Application Homepage](Picture/pages_EDA1.png)
