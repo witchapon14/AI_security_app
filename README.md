@@ -26,3 +26,7 @@ The **NSL-KDD** dataset is used during the training phase to build and fine-tune
 1. Install the required dependencies.
 2. Configure the application to point to the location of your log files.
 3. Run the application to start monitoring and anomaly detection.
+
+## User Interface Overview
+### EDA feature
+![Application Homepage](AI_security_app/a.png)
