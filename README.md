@@ -30,3 +30,9 @@ The **NSL-KDD** dataset is used during the training phase to build and fine-tune
 ## User Interface Overview
 ### EDA feature
 ![Application Homepage](Picture/pages_EDA1.png)
+
+### Pie chart of Protocol feature
+![Application Homepage](Picture/pages_EDA2.png)
+
+### Flow byte Over time feature
+![Application Homepage](Picture/pages_EDA3.png)
