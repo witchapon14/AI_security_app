@@ -1,5 +1,3 @@
-# AI_security_app
-
 # Log Monitoring and Anomaly Detection Application
 
 This application is designed to monitor log files and identify anomalies within the logs. The training process for the anomaly detection model utilizes the **NSL-KDD dataset**, which provides a standard benchmark for training and evaluating models in network intrusion detection and anomaly detection.
