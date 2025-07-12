@@ -22,10 +22,6 @@ The **NSL-KDD** dataset is used during the training phase to build and fine-tune
 - A trained model based on NSL-KDD (provided with the application or trainable using the dataset).
 - Log files in a structured format for effective processing.
 
-## Getting Started
-1. Install the required dependencies.
-2. Configure the application to point to the location of your log files.
-3. Run the application to start monitoring and anomaly detection.
 
 ## User Interface Overview
 ### EDA feature
